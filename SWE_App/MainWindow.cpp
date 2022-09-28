@@ -70,6 +70,8 @@ void MainWindow::OnButtonClick(wxCommandEvent& action) {
 
 	case 104:
 		_textBox->AppendText(processor->Equal());
+
+		processor->Clear();
 		break;
 
 	case 105:
