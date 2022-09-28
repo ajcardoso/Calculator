@@ -466,6 +466,7 @@ std::string Processor::Nine() {
 std::string Processor::Zero() {
 	if (firstFloat == " ")
 	{
+		firstFloat = "0";
 		return firstFloat;
 	}
 
